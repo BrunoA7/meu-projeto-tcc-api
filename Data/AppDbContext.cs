@@ -21,6 +21,9 @@ namespace webAPI_ASPNET.Data
             modelBuilder.Entity<ButtonRelation>().ToTable("BUTTONRELATION");
             modelBuilder.Entity<Pedido>().ToTable("Pedido");
             modelBuilder.Entity<PedidoItem>().ToTable("PedidoItem");
+            modelBuilder.Entity<Produto>().ToTable("Produto");
+            modelBuilder.Entity<Categoria>().ToTable("Categoria");
+            modelBuilder.Entity<ProdutoImagem>().ToTable("ProdutoImagem");
             base.OnModelCreating(modelBuilder);
         }
 
@@ -32,5 +35,8 @@ namespace webAPI_ASPNET.Data
         public DbSet<User> UserLogin { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<PedidoItem> PedidoItens { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<ProdutoImagem> ProdutoImagens { get; set; }
     }
 }

@@ -54,9 +54,14 @@ namespace webAPI_ASPNET.Repositorios
 
         public async Task<UserWithDepartment> getUserIDepartmentByUsernameAndPassword(string username, string password)
         {
+            // LEFT JOIN (antes era INNER JOIN): se a linha do DEPARTMENT com o ID certo não existir,
+            // o usuário ainda é encontrado — só não tem o nome do departamento, mas o IDDEPARTMENT
+            // (usado pra decidir Vendedor x Comprador) continua vindo do DEPARTMENTRELATION mesmo assim.
             return await (from u in _dbContext.User
-                          join ud in _dbContext.DepartmentRelation on u.ID equals ud.IDUSER
-                          join d in _dbContext.Department on ud.IDDEPARTMENT equals d.ID
+                          join ud in _dbContext.DepartmentRelation on u.ID equals ud.IDUSER into userDepartments
+                          from ud in userDepartments.DefaultIfEmpty()
+                          join d in _dbContext.Department on ud.IDDEPARTMENT equals d.ID into departments
+                          from d in departments.DefaultIfEmpty()
                           where u.USERNAME == username && u.PASSWORD == password
                           select new UserWithDepartment
                           {
@@ -126,14 +131,15 @@ namespace webAPI_ASPNET.Repositorios
 
         public User Authenticate(string username, string password)
         {
-            string query = $@"
-                            SELECT U.ID, U.USERNAME, U.PASSWORD, U.FULLNAME, U.EMAIL, D.ID AS IDDEPARTMENT, D.DEPARTMENTNAME 
-                            FROM USERS U 
-                            INNER JOIN DEPARTMENTRELATION DR ON DR.IDUSER = U.ID
-                            INNER JOIN DEPARTMENT D ON D.ID = DR.IDDEPARTMENT
-                            WHERE U.USERNAME = '{username}' AND U.PASSWORD = '{password}'";
-
-            var user = _dbContext.UserLogin.FromSqlRaw(query).SingleOrDefault();
+            // LEFT JOIN: usuário sem vínculo de departamento ainda consegue logar (vira "Comprador").
+            // FromSqlInterpolated parametriza username/password (evita SQL injection).
+            var user = _dbContext.UserLogin.FromSqlInterpolated($@"
+                            SELECT U.ID, U.USERNAME, U.PASSWORD, U.FULLNAME, U.EMAIL, D.ID AS IDDEPARTMENT, D.DEPARTMENTNAME
+                            FROM USERS U
+                            LEFT JOIN DEPARTMENTRELATION DR ON DR.IDUSER = U.ID
+                            LEFT JOIN DEPARTMENT D ON D.ID = DR.IDDEPARTMENT
+                            WHERE U.USERNAME = {username} AND U.PASSWORD = {password}")
+                .SingleOrDefault();
 
             return user;
         }

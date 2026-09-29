@@ -58,7 +58,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// Configuração do JWT
+// Configuraï¿½ï¿½o do JWT
 var key = builder.Configuration["Jwt:Key"]; // Sua chave secreta do JWT
 builder.Services.AddAuthentication(options =>
 {
@@ -76,10 +76,12 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Adicionando políticas de autorização
+// Adicionando polï¿½ticas de autorizaï¿½ï¿½o
+// OBS: o login (User/login) hoje sÃ³ emite os papÃ©is "Vendedor"/"Comprador" â€” sem eles aqui
+// dentro, nenhum usuÃ¡rio real conseguia passar por essa policy (endpoints ficavam inacessÃ­veis).
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("perm", policy => policy.RequireRole("ADM", "COMMON USER"));
+    options.AddPolicy("perm", policy => policy.RequireRole("ADM", "COMMON USER", "Vendedor", "Comprador"));
 });
 
 

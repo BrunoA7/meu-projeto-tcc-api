@@ -1,58 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\",
+  "WorkspaceRootPath": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\ButtonController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ButtonController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Repositorios\\Interfaces\\IUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositorios\\Interfaces\\IUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Repositorios\\UserRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositorios\\UserRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\controllers\\financeirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:controllers\\financeirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\PedidoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PedidoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\repositorios\\userrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:repositorios\\userrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\controllers\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:controllers\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\DTOs\\PedidoItemCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\PedidoItemCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\repositorios\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:repositorios\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\PedidoItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\PedidoItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\DTOs\\PedidoCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\PedidoCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\dtos\\pedidoitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:dtos\\pedidoitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\models\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:models\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|c:\\users\\bruno\\onedrive\\documentos\\github\\meu-projeto-tcc-api\\dtos\\pedidocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3058214-121B-4A07-843C-6327A41DC43B}|webAPI_ASPNET.csproj|solutionrelative:dtos\\pedidocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,11 +94,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAUwGEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T16:30:40.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAtwDwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T16:10:15.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\Produto.cs",
+              "RelativeToolTip": "Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T16:09:05.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinanceiroController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\FinanceiroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FinanceiroController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\FinanceiroController.cs",
+              "RelativeToolTip": "Controllers\\FinanceiroController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:38:42.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ButtonController.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\ButtonController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\ButtonController.cs",
               "RelativeDocumentMoniker": "Controllers\\ButtonController.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\ButtonController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\ButtonController.cs",
               "RelativeToolTip": "Controllers\\ButtonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,24 +155,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAARAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAG0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T11:01:44.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,11 +180,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "IUser.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Repositorios\\Interfaces\\IUser.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Repositorios\\Interfaces\\IUser.cs",
               "RelativeDocumentMoniker": "Repositorios\\Interfaces\\IUser.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Repositorios\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Repositorios\\Interfaces\\IUser.cs",
               "RelativeToolTip": "Repositorios\\Interfaces\\IUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -127,11 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Program.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAArwBgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,23 +204,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UserRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Repositorios\\UserRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Repositorios\\UserRepositorio.cs",
               "RelativeDocumentMoniker": "Repositorios\\UserRepositorio.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Repositorios\\UserRepositorio.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Repositorios\\UserRepositorio.cs",
               "RelativeToolTip": "Repositorios\\UserRepositorio.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAYwI4AAAAwAAAAAAAAAA==",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAwIMAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T11:01:37.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "PedidoController.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\PedidoController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "Controllers\\PedidoController.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Controllers\\PedidoController.cs",
               "RelativeToolTip": "Controllers\\PedidoController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAgwEEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -163,23 +228,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T11:07:09.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\Pedido.cs",
               "RelativeToolTip": "Models\\Pedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,23 +252,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-12T11:46:14.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PedidoItemCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\DTOs\\PedidoItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\DTOs\\PedidoItemCreateDto.cs",
               "RelativeDocumentMoniker": "DTOs\\PedidoItemCreateDto.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\DTOs\\PedidoItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\DTOs\\PedidoItemCreateDto.cs",
               "RelativeToolTip": "DTOs\\PedidoItemCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,11 +276,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "PedidoItem.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\PedidoItem.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\PedidoItem.cs",
               "RelativeDocumentMoniker": "Models\\PedidoItem.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\Models\\PedidoItem.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\Models\\PedidoItem.cs",
               "RelativeToolTip": "Models\\PedidoItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +288,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "PedidoCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\DTOs\\PedidoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\DTOs\\PedidoCreateDto.cs",
               "RelativeDocumentMoniker": "DTOs\\PedidoCreateDto.cs",
-              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\\u00C1rea de Trabalho\\webAPI_ASPNET\\DTOs\\PedidoCreateDto.cs",
+              "ToolTip": "C:\\Users\\Bruno\\OneDrive\\Documentos\\Github\\meu-projeto-tcc-api\\DTOs\\PedidoCreateDto.cs",
               "RelativeToolTip": "DTOs\\PedidoCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

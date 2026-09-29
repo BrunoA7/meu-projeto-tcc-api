@@ -86,33 +86,42 @@ namespace webAPI_ASPNET.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] UserLogin login)
+        public async Task<IActionResult> Login([FromBody] UserLogin login)
         {
             var user = _userRepositorio.Authenticate(login.USERNAME, login.PASSWORD);
 
             if (user == null)
                 return Unauthorized();
 
+            // ── busca o departamento pra saber a Role real ──
+            var userComDepartamento = await _userRepositorio
+                .getUserIDepartmentByUsernameAndPassword(login.USERNAME, login.PASSWORD);
+
+            string role = userComDepartamento?.DepartmentRelation?.IDDEPARTMENT == DepartmentIds.Vendedor
+                ? "Vendedor"
+                : "Comprador";
+
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[]
-{
-                    new Claim(ClaimTypes.Name, user.USERNAME),
-                    new Claim(ClaimTypes.Email, user.EMAIL), // ← ADICIONA ESSA LINHA
-                    new Claim(ClaimTypes.NameIdentifier, user.ID.ToString()), // ← MUITO IMPORTANTE
-                    new Claim(ClaimTypes.Role, "ADM")
-                }),
+                {
+            new Claim(ClaimTypes.Name, user.USERNAME),
+            new Claim(ClaimTypes.Email, user.EMAIL ?? string.Empty),
+            new Claim(ClaimTypes.NameIdentifier, user.ID.ToString()),
+            new Claim("FullName", user.FULLNAME ?? user.USERNAME),
+            new Claim(ClaimTypes.Role, role)
+        }),
                 Expires = DateTime.UtcNow.AddHours(1),
                 Issuer = _configuration["Jwt:Issuer"],
                 Audience = _configuration["Jwt:Audience"],
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-            }; 
+            };
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenString = tokenHandler.WriteToken(token);
-            return Ok(new { Token = tokenHandler.WriteToken(token) });
+            return Ok(new { Token = tokenString });
         }
 
         [HttpPost("register")]
@@ -131,8 +140,8 @@ namespace webAPI_ASPNET.Controllers
 
             await _userRepositorio.post(user); // salva e popula user.ID automaticamente
 
-            // ✅ Vincula automaticamente como Comprador (2)
-            await _userRepositorio.VincularDepartamento(user.ID, 2);
+            // ✅ Vincula automaticamente como Comprador
+            await _userRepositorio.VincularDepartamento(user.ID, DepartmentIds.Comprador);
 
             return Ok(new { message = "Usuário criado com sucesso" });
         }
